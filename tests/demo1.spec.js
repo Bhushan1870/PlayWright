@@ -7,7 +7,7 @@ test ('Locators' , async ({page}) =>
 
   await page.getByLabel('Username').fill('Chandler');
   await page.getByLabel('Password').fill('Chandler@123');
-
+ //await page.screenshot({path : 'screenshot/todo-final.png', fullPage:true});
   //await page.getByRole ('link' , {name : 'Close'}).click();
  // await expect(page.getByText ('Samsung')).toBeVisible();
 
